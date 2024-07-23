@@ -12,7 +12,7 @@ Some options:
 Once you determine and set-up your python IDE, you will need to install some libraries using the command line. You begin with installing the pip installer, then set-up your virtual environment, then python Flask. 
 
 For mac/Linux 
-```
+```command
 python -m pip install
 ```
 and
@@ -62,7 +62,7 @@ my_flask_app/
 
 Your virtual environment will be what is named 'my_flask_app'. For convenience you can create a file that contains the venv file, and name it whatever you want. Within this venv file, the hierarchy/organisation of the files will need to be consistent. It is important that you save your files under the same file that was referred to when setting up the virtual environment, in this case, my_flask_app -> venv. It is also important to note that any references to other files are by their name, so any changes would need to be updated in the code to ensure that the correct file is being called. One example of an error could be having the login page named 'loginpage.html', and using the code:
 
-```
+```python
 return render_template('login.html', error='Invalid username or password')
 ```
 When the code refers to a HTML page, it is required that names are consistent. If no HTML file is found with the name inputted in a request, and error will occur.
@@ -75,7 +75,7 @@ It may be easier to keep the file names used in this repository for initial set-
 Once all of your files are in the correct order and named appropriately, you should run the flask application (app.py) in the IDE. If done correctly, you should recieve this output,
 
 ```
- ~file directory~
+ > ~file directory~
  * Serving Flask app 'app'
  * Debug mode: off
 WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
