@@ -14,9 +14,25 @@ my_flask_app/
     ├── register.html
     ├── question.html
     └── leaderboard.html
-```    
-```python
+```
+It is important that you save your files under the same file that was referred to when setting up the virtual environment. It is also important to note that any references to other files are by their name, so any changes would need to be updated in the code to ensure that the correct file is being called. It may be easier to keep the file names used in this repository for initial set-up. 
 
+## Running the program
+
+Once all of your files are in the correct order and named appropriately, you should run the flask application (app.py). If done correctly, you should recieve this output,
+
+```
+
+ ~file directory~
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+```
+What this means is that a local instance of the flask application has been created on the local (http://127.0.0.1:5000) address.
+
+```python
 h
 
 print()
