@@ -22,7 +22,6 @@ It is important that you save your files under the same file that was referred t
 Once all of your files are in the correct order and named appropriately, you should run the flask application (app.py). If done correctly, you should recieve this output,
 
 ```
-
  ~file directory~
  * Serving Flask app 'app'
  * Debug mode: off
@@ -30,7 +29,7 @@ WARNING: This is a development server. Do not use it in a production deployment.
  * Running on http://127.0.0.1:5000
 Press CTRL+C to quit
 ```
-What this means is that a local instance of the flask application has been created on the local (http://127.0.0.1:5000) address.
+What this means is that a local instance of the flask application has been created on the local (http://127.0.0.1:5000) address. By visiting this address, you will see that you are directed to a webpage of 'login.html'.
 
 ```python
 h
