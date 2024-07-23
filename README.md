@@ -32,6 +32,9 @@ Press CTRL+C to quit
 What this means is that a local instance of the flask application has been created on the local (http://127.0.0.1:5000) address. By visiting this address, you will see that you are directed to a webpage of 'login.html'.
 ![](/assets/images/Screenshot 2024-07-23 at 19.21.31)
 
+[
+](https://github.com/BigLittle9/1/blob/main/Screenshot%202024-07-23%20at%2019.21.31.png?raw=true)![image](https://github.com/user-attachments/assets/3b9d2398-cf2f-4969-8d65-66d2448f249b)
+
 ```python
 h
 
