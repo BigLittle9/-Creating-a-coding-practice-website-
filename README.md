@@ -30,6 +30,7 @@ WARNING: This is a development server. Do not use it in a production deployment.
 Press CTRL+C to quit
 ```
 What this means is that a local instance of the flask application has been created on the local (http://127.0.0.1:5000) address. By visiting this address, you will see that you are directed to a webpage of 'login.html'.
+![](/assets/images/Screenshot 2024-07-23 at 19.21.31)
 
 ```python
 h
