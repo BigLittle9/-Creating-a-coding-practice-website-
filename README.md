@@ -4,9 +4,9 @@ With this guide and the files included in the repository, you will be able to re
 
 Some options:
 -
-- PyCharm
-- Sublime Text
-- PyDev
+- PyCharm (Pro:Designed for Python Con: )
+- Sublime Text (Pro:One of the smoothest IDEs Con: )
+- PyDev (Pro:Quick to set-up for users familiar with eclipse Con:eclipse comes with a learning curve)
   
 ## Python libraries
 Once you determine and set-up your python IDE, you will need to install some libraries using the command line. You begin with installing the pip installer, then set-up your virtual environment, then python Flask. 
