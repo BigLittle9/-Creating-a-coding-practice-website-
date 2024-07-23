@@ -1,9 +1,1 @@
 h
-
-```python
-
-he 
-
-print('he
-
-```
