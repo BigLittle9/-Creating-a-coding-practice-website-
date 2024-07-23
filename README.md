@@ -84,9 +84,12 @@ Press CTRL+C to quit
 What this means is that a local instance of the flask application has been created on the local (http://127.0.0.1:5000) address. By visiting this address, you will see that you are directed to a webpage of 'login.html'.
 ![](/assets/images/Screenshot 2024-07-23 at 19.21.31)
 
-<img width="220" alt="Screenshot 2024-07-23 at 19 40 14" src="https://github.com/user-attachments/assets/03781b4a-bf7c-4d5a-af52-7f523dbe0d20">
-login.html
 
+<img width="220" alt="Screenshot 2024-07-23 at 19 40 14" src="https://github.com/user-attachments/assets/03781b4a-bf7c-4d5a-af52-7f523dbe0d20">
+
+```
+login.html
+```
 You can also begin to use the website. Register an account and you will see that you have the ability to login, with your username diplayed on the leaderboard alongside any points. Create multiple accounts and see that they all show on the leaderboard. It is important to note that, so far, the application is hosted locally, so it is not accessible anywhere but the device used to run the code. Closing the app (CTRL+C in the IDE) will delete all saved points and users. Running it again will require a new registration. For a fully operational website, with a global leaderboard, you will need to host your website on a web-hosting server. You may also need to store information on a secure, separate database, using SQL queries for retrieving information. I would also suggest that you consider the security risks posed by excecuting user-inputted code.
 
 ## What are the security risks of hosting a coding practice website?
