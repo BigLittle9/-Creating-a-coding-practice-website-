@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Leaderboard</title>
+</head>
+<body>
+    <h1>Leaderboard</h1>
+    <table>
+        <tr>
+            <th>Username</th>
+            <th>Points</th>
+        </tr>
+        {% for username, points in user_points.items() %}
+        <tr>
+            <td>{{ username }}</td>
+            <td>{{ points }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <p><a href="{{ url_for('question') }}">Back to Questions</a></p>
+</body>
+</html>
