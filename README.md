@@ -94,11 +94,15 @@ login.html
 You can also begin to use the website. Register an account and you will see that you have the ability to login, with your username diplayed on the leaderboard alongside any points. Create multiple accounts and see that they all show on the leaderboard. It is important to note that, so far, the application is hosted locally, so it is not accessible anywhere but the device used to run the code. Closing the app (CTRL+C in the IDE) will delete all saved points and users. Running it again will require a new registration. For a fully operational website, with a global leaderboard, you will need to host your website on a web-hosting server. You may also need to store information on a secure, separate database, using SQL queries for retrieving information. I would also suggest that you consider the security risks posed by excecuting user-inputted code.
 
 ## What are the security risks of hosting a coding practice website?
-In general, all programs and websites contain exploitable code. It is always good practice to understand what and how someone can cause issues with software hosted online. In this project in particular, we have a program which executes user code which, if not properly handled, can pose a large risk to malware and other malicious attacks. Here are some useful links to some common web attacks:
+In general, all programs and websites contain exploitable code. It is always good practice to understand what and how someone can cause issues with software hosted online. In this project in particular, we have a program which executes user code which, if not properly handled, can pose a large risk to malware and other malicious attacks. Here are some common web attacks:
 
--
--
--
+- Bots
+
+- DDoS Attacks
+
+- SQL Injections and Cross-site Scripting
+
+- Malware Attacks
 
 
 ```python
