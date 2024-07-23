@@ -1,4 +1,4 @@
-# Creating a coding practice website
+<img width="1440" alt="Screenshot 2024-07-23 at 19 21 31" src="https://github.com/user-attachments/assets/231673f4-810b-49b0-b0af-43a91d62bdd5"># Creating a coding practice website
 
 ## Setting-up the virtual environment
 First of all, you will need to [set-up a virtual environment](/SET-UP.md) in the command line
@@ -32,8 +32,7 @@ Press CTRL+C to quit
 What this means is that a local instance of the flask application has been created on the local (http://127.0.0.1:5000) address. By visiting this address, you will see that you are directed to a webpage of 'login.html'.
 ![](/assets/images/Screenshot 2024-07-23 at 19.21.31)
 
-[
-](https://github.com/BigLittle9/1/blob/main/Screenshot%202024-07-23%20at%2019.21.31.png?raw=true)![image](https://github.com/user-attachments/assets/3b9d2398-cf2f-4969-8d65-66d2448f249b)
+<img width="220" alt="Screenshot 2024-07-23 at 19 40 14" src="https://github.com/user-attachments/assets/03781b4a-bf7c-4d5a-af52-7f523dbe0d20">
 
 ```python
 h
@@ -41,3 +40,4 @@ h
 print()
 
 ```
+
