@@ -38,25 +38,13 @@ Read the SET-UP document to [set-up a virtual environment](/SET-UP.md)
 
 With pip installed, and your virtual environment set-up, you can now instal the Python Flask library. Input these prompts into your command line.
 
-For mac/Linux 
+
+For mac/Linux and Windows
 ```
-python -m pip install
-```
-and
-```
-python -m pip update
+$ pip install Flask
 ```
 
-
-For Windows
-```
-py -m pip install
-```
-and
-```
-py -m pip update
-```
-
+Flask is now installed, and you are ready to start organising the files provided in the repository.
 
 ## Creating the necessary files
 Once you've set-up and installed the required libraries, you can go ahead and start adding files to the project directory. In this project, I have seperate HTML files for the login, register, question, and leaderboard page, which act as the front-end. You can also create your python flask application, which will act act as the back-end. Your file-tree should look something like this.
