@@ -1,4 +1,4 @@
-# Creating a coding practice website
+# 👾Creating a coding practice website👾
 
 ## Setting-up the virtual environment
 First of all, you will need to [set-up a virtual environment](/SET-UP.md) in the command line
