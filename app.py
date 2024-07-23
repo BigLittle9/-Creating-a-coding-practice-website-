@@ -22,6 +22,10 @@ questions = [
 user_points = {}
 user_answered_questions = {}
 
+@app.route('/')
+def index():
+    return redirect('/login')
+    
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
