@@ -1,6 +1,6 @@
 # Creating a coding practice website
 
-[For set-up](/SET-UP.md)
+First of all, you will need to [set-up a virtual environment](/SET-UP.md) in the command line
 1
 
 ```python
