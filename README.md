@@ -1,5 +1,6 @@
 # 👾Creating a coding practice website👾
 
+With this guide and the files included in the repository, you will be able to re-create a simple question and answer coding site. Any code explanations will mostly be covered in comments, but any common errors that I encountered will be documented along with possible solutions in the Troubleshooting FAQs section.
 ## Setting-up the virtual environment
 First of all, you will need to [set-up a virtual environment](/SET-UP.md) in the command line
 
@@ -40,4 +41,6 @@ h
 print()
 
 ```
+
+
 
