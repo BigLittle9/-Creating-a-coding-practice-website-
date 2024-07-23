@@ -12,12 +12,20 @@ Once you determine and set-up your python IDE, you will need to install some lib
 
 For mac/Linux 
 ```
-i
+python -m pip install
+```
+and
+```
+python -m pip update
 ```
 
 For Windows
 ```
-
+py -m pip install
+```
+and
+```
+py -m pip update
 ```
 
 ## Creating the necessary files
