@@ -1,4 +1,4 @@
-<img width="1440" alt="Screenshot 2024-07-23 at 19 21 31" src="https://github.com/user-attachments/assets/231673f4-810b-49b0-b0af-43a91d62bdd5"># Creating a coding practice website
+# Creating a coding practice website
 
 ## Setting-up the virtual environment
 First of all, you will need to [set-up a virtual environment](/SET-UP.md) in the command line
