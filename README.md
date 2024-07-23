@@ -1,11 +1,27 @@
 # 👾Creating a coding practice website👾
 
-With this guide and the files included in the repository, you will be able to re-create a simple question and answer coding site. Any code explanations will mostly be covered in comments, but any common errors that I encountered will be documented along with possible solutions in the Troubleshooting FAQs section.
-## Setting-up the virtual environment
-First of all, you will need to [set-up a virtual environment](/SET-UP.md) in the command line
+With this guide and the files included in the repository, you will be able to re-create a simple question and answer coding site. If you have Python experience, you likely can go ahead and set-up everything quickly, using this as a template. Any code explanations will mostly be covered in comments, but any common errors that I encountered will be documented along with possible solutions in the Troubleshooting FAQs section. To start, you will need an IDE that you can code in Python with.
+
+Some options:
+- 
+-
+-
+
+## Python libraries
+Once you determine and set-up your python IDE, you will need to install some libraries using the command line. You begin with installing the pip installer, then python Flask. 
+
+For mac/Linux 
+```
+i
+```
+
+For Windows
+```
+
+```
 
 ## Creating the necessary files
-Once you've set-up your virtual environment and installed the required libraries, you can go ahead and start adding files to the project directory. In this project, I have seperate HTML files for the login, register, question, and leaderboard page, which act as the front-end. You can also create your python flask application, which will act act as the back-end. Your file-tree should look something like this.
+Once you've set-up and installed the required libraries, you can go ahead and start adding files to the project directory. In this project, I have seperate HTML files for the login, register, question, and leaderboard page, which act as the front-end. You can also create your python flask application, which will act act as the back-end. Your file-tree should look something like this.
 
 ```
 my_flask_app/
@@ -17,6 +33,9 @@ my_flask_app/
     └── leaderboard.html
 ```
 It is important that you save your files under the same file that was referred to when setting up the virtual environment. It is also important to note that any references to other files are by their name, so any changes would need to be updated in the code to ensure that the correct file is being called. It may be easier to keep the file names used in this repository for initial set-up. 
+
+## Setting-up the virtual environment
+First of all, you will need to [set-up a virtual environment](/SET-UP.md) in the command line
 
 ## Running the program
 
