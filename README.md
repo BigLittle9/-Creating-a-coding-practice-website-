@@ -3,10 +3,11 @@
 With this guide and the files included in the repository, you will be able to re-create a simple question and answer coding site. If you have Python experience, you likely can go ahead and set-up everything quickly, using this as a template. Any code explanations will mostly be covered in comments, but any common errors that I encountered will be documented along with possible solutions in the Troubleshooting FAQs section. To start, you will need an IDE that you can code in Python with. I recommend [Visual Studio Code](https://code.visualstudio.com/), but you can use any other option.
 
 Some options:
-- 
 -
--
-
+- PyCharm
+- Sublime Text
+- PyDev
+  
 ## Python libraries
 Once you determine and set-up your python IDE, you will need to install some libraries using the command line. You begin with installing the pip installer, then set-up your virtual environment, then python Flask. 
 
