@@ -58,7 +58,15 @@ my_flask_app/
     ├── question.html
     └── leaderboard.html
 ```
-It is important that you save your files under the same file that was referred to when setting up the virtual environment. It is also important to note that any references to other files are by their name, so any changes would need to be updated in the code to ensure that the correct file is being called. It may be easier to keep the file names used in this repository for initial set-up. 
+
+Your virtual environment will be what is named 'my_flask_app'. For convenience you can create a file that contains the venv file, and name it whatever you want. Within this venv file, the hierarchy/organisation of the files will need to be consistent. It is important that you save your files under the same file that was referred to when setting up the virtual environment, in this case, my_flask_app -> venv. It is also important to note that any references to other files are by their name, so any changes would need to be updated in the code to ensure that the correct file is being called. One example of an error could be having the login page named 'loginpage.html', and using the code:
+
+```
+return render_template('login.html', error='Invalid username or password')
+```
+When the code refers to a HTML page, it is required that names are consistent. If no HTML file is found with the name inputted in a request, and error will occur.
+
+It may be easier to keep the file names used in this repository for initial set-up. 
 
 
 ## Running the program
