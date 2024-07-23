@@ -8,7 +8,7 @@ Some options:
 -
 
 ## Python libraries
-Once you determine and set-up your python IDE, you will need to install some libraries using the command line. You begin with installing the pip installer, then python Flask. 
+Once you determine and set-up your python IDE, you will need to install some libraries using the command line. You begin with installing the pip installer, then set-up your virtual environment, then python Flask. 
 
 For mac/Linux 
 ```
@@ -29,6 +29,35 @@ and
 py -m pip update
 ```
 
+Once pip is installed and up to date, you will need to set-up your virtual environment.
+
+## Setting-up the virtual environment
+Read the SET-UP document to [set-up a virtual environment](/SET-UP.md)
+
+## Installing Python Flask.
+
+With pip installed, and your virtual environment set-up, you can now instal the Python Flask library. Input these prompts into your command line.
+
+For mac/Linux 
+```
+python -m pip install
+```
+and
+```
+python -m pip update
+```
+
+
+For Windows
+```
+py -m pip install
+```
+and
+```
+py -m pip update
+```
+
+
 ## Creating the necessary files
 Once you've set-up and installed the required libraries, you can go ahead and start adding files to the project directory. In this project, I have seperate HTML files for the login, register, question, and leaderboard page, which act as the front-end. You can also create your python flask application, which will act act as the back-end. Your file-tree should look something like this.
 
@@ -43,8 +72,6 @@ my_flask_app/
 ```
 It is important that you save your files under the same file that was referred to when setting up the virtual environment. It is also important to note that any references to other files are by their name, so any changes would need to be updated in the code to ensure that the correct file is being called. It may be easier to keep the file names used in this repository for initial set-up. 
 
-## Setting-up the virtual environment
-First of all, you will need to [set-up a virtual environment](/SET-UP.md) in the command line
 
 ## Running the program
 
