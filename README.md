@@ -93,7 +93,7 @@ Paste this at the end of your app.py program. With debug mode on, you will be ab
 <img width="1242" alt="Screenshot 2024-07-24 at 19 16 05" src="https://github.com/user-attachments/assets/b1d33dc8-2036-4063-ab97-d14f07e25323">
 
 ```
-Answering a question while not logged in, and if the code does not catch the exception before testing the input, it will result in the debugger giving an error analysis
+Answering a question while not logged in, and the code not designed catch the exception before testing the input, will result in the debugger giving an error analysis
 ```
 
 <img width="220" alt="Screenshot 2024-07-23 at 19 40 14" src="https://github.com/user-attachments/assets/03781b4a-bf7c-4d5a-af52-7f523dbe0d20">
