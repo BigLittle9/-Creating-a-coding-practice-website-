@@ -9,7 +9,7 @@ Some options:
 - PyDev (Pro:Quick to set-up for users familiar with eclipse Con:eclipse comes with a learning curve)
   
 ## Python libraries
-Once you determine and set-up your python IDE, you will need to install some libraries using the command line. You begin with installing the pip installer, then set-up your virtual environment, then python Flask. 
+Once you determine and set-up your python IDE, you will need to install some libraries using the command line. You begin with installing the pip installer, then set-up your virtual environment, then python Flask. You will need administrative permissions on your device to carry out the next steps. Go to the command line and type the following:
 
 For mac/Linux 
 ```command
