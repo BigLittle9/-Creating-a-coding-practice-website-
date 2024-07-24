@@ -82,9 +82,20 @@ WARNING: This is a development server. Do not use it in a production deployment.
  * Running on http://127.0.0.1:5000
 Press CTRL+C to quit
 ```
-What this means is that a local instance of the flask application has been created on the local (http://127.0.0.1:5000) address. By visiting this address, you will see that you are directed to a webpage of 'login.html'.
-![](/assets/images/Screenshot 2024-07-23 at 19.21.31)
+What this means is that a local instance of the flask application has been created on the local (http://127.0.0.1:5000) address. By visiting this address, you will see that you are directed to a webpage of 'login.html'. Note that you can set Debug mode to on with:
 
+```
+if __name__ == '__main__':
+    app.run(debug=True)
+```
+Pase this at the end of your app.py program. With debug mode on, you will be able to see changes to the code reflected onto the website, without having to close and restart the instance. You will also recieve a detalied response to any errors that the application encounters in the code.
+
+<img width="1242" alt="Screenshot 2024-07-24 at 19 16 05" src="https://github.com/user-attachments/assets/b1d33dc8-2036-4063-ab97-d14f07e25323">
+
+![](/assets/images/Screenshot 2024-07-23 at 19.21.31)
+```
+Answering a question while not logged in, and if the code does not catch the exception before testing the input, it will result in the debugger giving an error analysis
+```
 
 <img width="220" alt="Screenshot 2024-07-23 at 19 40 14" src="https://github.com/user-attachments/assets/03781b4a-bf7c-4d5a-af52-7f523dbe0d20">
 
